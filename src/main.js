@@ -10,10 +10,10 @@ import App from './App'
 import router from './router'
 import store from './vuex/store'
 import VueScrollTo from 'vue-scrollto'
-// import VueTouch from './plugins/vue2-touch'
+import VueTouch from 'vue2-touch'
 
 Vue.config.productionTip = false
-// Vue.use(VueTouch)
+Vue.use(VueTouch)
 Vue.use(VueScrollTo, {
   container: 'body',
   duration: 1500,

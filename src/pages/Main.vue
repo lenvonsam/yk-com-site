@@ -1,7 +1,7 @@
 <template lang="pug">
   #mainContainer
-    #swipeTest(style="height:200px;border:1px solid black;",ref="xxswipe")
-    button.btn(v-scroll-to="{el: '#d4'}", :class="{active: activeIndex == 4}", style="position:fixed; top:20;z-index:20") jump2d4
+    .feature-text
+      h3.text-center 测试
     accordion(type="info")
       panel(header="panel #1")
         strong panel #1
@@ -16,14 +16,13 @@
       h3 d4
     .dblock
       h3 d5
-    transition(name="bounce",enter-active-class="bounceInLeft",leave-active-class="bounceOutRight")
+    transition(name="fade",enter-active-class="fadeInUp",leave-active-class="fadeOutDown")
       .bottom-dot(v-if="canShowBottomBtn",v-scroll-to="{ el: '#mainContainer' }")
 
 </template>
 
 <script>
 import { accordion, panel } from 'vue-strap'
-import Hammer from 'hammerjs'
 export default {
   data () {
     return {
@@ -34,23 +33,6 @@ export default {
     }
   },
   mounted () {
-    console.log(Hammer)
-    let sx = new Hammer.Manager(this.$refs.xxswipe)
-    sx.add(new Hammer.Swipe())
-    sx.on('swipe', (e) => {
-      console.log('swipe')
-      console.log(e)
-    })
-    // sx.on('swipeleft', (e) => {
-    //   console.log('swipe left')
-    //   alert('swipe left')
-    //   console.log(e)
-    // })
-    // sx.on('swiperight', (e) => {
-    //   console.log('swipe right')
-    //   alert('swipe right')
-    //   console.log(e)
-    // })
     this.$nextTick(() => {
       window.addEventListener('scroll', this.handleScroll)
     })
@@ -66,6 +48,11 @@ export default {
       } else {
         this.activeIndex = 0
       }
+    },
+    handerTap (type, e) {
+      console.log(type)
+      alert(type)
+      console.log(e)
     }
   },
   components: {
@@ -90,12 +77,20 @@ export default {
   }
 
   .bottom-dot {
-    width: 50px;
-    height: 50px;
-    background: gray;
+    width: 40px;
+    height: 40px;
+    background: url(../assets/to-top1.png) no-repeat;
     position: fixed;
     bottom: 20px;
     right: 20px;
     z-index: 20;
+  }
+  .feature-text h3 {
+    color: #393939;
+    font-size: 2.5em;
+    background: url(../assets/line.png) no-repeat 50% 100%;
+    padding-bottom: 0.5em;
+    margin-bottom: 10px;
+    font-weight: 500;
   }
 </style>
