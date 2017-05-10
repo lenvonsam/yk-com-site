@@ -31,9 +31,31 @@ img
     object-fit: cover;
 }
 
+.ft-white
+{
+    color: #fff !important;
+}
+
+a:hover
+{
+    cursor: pointer;
+}
+
 
 .fade-enter,
 .fade-leave-to
 {
     opacity: 0;
+}
+
+.banner .navbar-toggle:hover,
+.banner .navbar-toggle,
+.banner .navbar-toggle:focus
+{
+    background-color: transparent !important;
+}
+
+.banner .navbar-toggle .icon-bar
+{
+    background-color: #fff !important;
 }
