@@ -8,7 +8,15 @@ export default new Router({
     {
       path: '/',
       name: 'main',
-      component: require('../pages/Main.vue')
+      component: require('../pages/YkMain.vue')
+    }, {
+      path: '/contact',
+      name: 'contact',
+      component: require('../pages/Contact.vue')
+    }, {
+      path: '/intro',
+      name: 'intro',
+      component: require('../pages/YkIntro.vue')
     }
   ]
 })

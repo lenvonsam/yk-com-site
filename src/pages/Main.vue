@@ -312,15 +312,7 @@ export default {
     font-size: 16px;
   }
 
-  .bottom-dot {
-    width: 40px;
-    height: 40px;
-    background: url(../assets/to-top1.png) no-repeat;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 20;
-  }
+
   .feature-text h3 {
     color: #393939;
     font-size: 2.5em;
@@ -330,7 +322,7 @@ export default {
     font-weight: 500;
   }
   .footer {
-    background: #050e12;
+    background: #f0ad4e;
     padding: 2em 0;
     text-align: center;
   }

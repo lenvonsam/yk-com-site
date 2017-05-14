@@ -36,9 +36,60 @@ img
     color: #fff !important;
 }
 
+.ft-primary {
+    color: #d9982e !important;
+}
+
 a:hover
 {
     cursor: pointer;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.content {
+    padding-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .navbar-right .right-txt.dp {
+        padding-top: 10px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+
+    .content .section {
+       min-height: 500px !important;
+    }
+
+    .content .section.team-intro {
+        height: 1400px ;
+    }
+
+    .content .section.industry-intro {
+        height: 850px;
+    }
+
+    .content .comp-summary {
+        height: 800px !important;
+    }
+
+    .develop-icon:after {
+        height: 0px !important;
+    }
+}
+
+@media (min-width: 769px) {
+   .navbar-right .right-txt.dp {
+        padding-top: 15px;
+        padding-left: 0px;
+    }
 }
 
 
@@ -58,4 +109,13 @@ a:hover
 .banner .navbar-toggle .icon-bar
 {
     background-color: #fff !important;
+}
+
+.breadcrumb {
+    background: transparent;
+    margin-top:15px;
+}
+
+.breadcrumb .active {
+    color: #d9982e;
 }
