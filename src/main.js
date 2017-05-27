@@ -13,6 +13,8 @@ import VueScrollTo from 'vue-scrollto'
 import VueTouch from 'vue2-touch'
 import AMap from 'vue-amap'
 import mixins from './mixins'
+import {Pagination} from 'vue-pagination-2'
+import infiniteScroll from 'vue-infinite-scroll'
 
 Vue.config.productionTip = false
 Vue.use(VueTouch)
@@ -22,6 +24,8 @@ Vue.use(VueScrollTo, {
   easing: 'ease',
   offset: 0
 })
+Vue.component('pagination', Pagination)
+Vue.use(infiniteScroll)
 Vue.mixin(mixins)
 Vue.use(AMap)
 AMap.initAMapApiLoader({

@@ -36,7 +36,8 @@ img
     color: #fff !important;
 }
 
-.ft-primary {
+.ft-primary
+{
     color: #d9982e !important;
 }
 
@@ -45,50 +46,62 @@ a:hover
     cursor: pointer;
 }
 
-.pt-15 {
+.pt-15
+{
     padding-top: 15px;
 }
 
-.mb-20 {
+.mb-20
+{
     margin-bottom: 20px;
 }
 
-.content {
+.content
+{
     padding-top: 50px;
 }
 
-@media (max-width: 768px) {
-    .navbar-right .right-txt.dp {
+@media (max-width: 768px)
+{
+    .navbar-right .right-txt.dp
+    {
         padding-top: 10px;
-        padding-left: 15px;
         padding-bottom: 10px;
+        padding-left: 15px;
     }
 
-    .content .section {
-       min-height: 500px !important;
+    .content .section
+    {
+        min-height: 500px !important;
     }
 
-    .content .section.team-intro {
+    .content .section.team-intro
+    {
         height: 1400px ;
     }
 
-    .content .section.industry-intro {
+    .content .section.industry-intro
+    {
         height: 850px;
     }
 
-    .content .comp-summary {
+    .content .comp-summary
+    {
         height: 800px !important;
     }
 
-    .develop-icon:after {
-        height: 0px !important;
+    .develop-icon:after
+    {
+        height: 0 !important;
     }
 }
 
-@media (min-width: 769px) {
-   .navbar-right .right-txt.dp {
+@media (min-width: 769px)
+{
+    .navbar-right .right-txt.dp
+    {
         padding-top: 15px;
-        padding-left: 0px;
+        padding-left: 0;
     }
 }
 
@@ -111,11 +124,30 @@ a:hover
     background-color: #fff !important;
 }
 
-.breadcrumb {
+.breadcrumb
+{
+    margin-top: 15px;
+
     background: transparent;
-    margin-top:15px;
 }
 
-.breadcrumb .active {
+.breadcrumb .active
+{
     color: #d9982e;
 }
+
+/**paginate style*/
+.yea-paginate .page-item a
+{
+    color: #d9982e !important;
+}
+
+.yea-paginate .page-item.active a,
+.yea-paginate .page-item.active a:focus
+{
+    color: #fff !important;
+    border: 1px solid #d9982e;
+    background: #d9982e;
+}
+
+

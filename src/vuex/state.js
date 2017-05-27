@@ -28,7 +28,10 @@ const state = {
   }, {
     name: '新闻中心',
     vto: '.special',
-    type: 'text'
+    type: 'text',
+    url: {
+      path: '/news'
+    }
   }, {
     name: '怡康产业',
     vto: '.team',
@@ -52,6 +55,28 @@ const state = {
     url: {
       path: '/contact'
     }
+  }],
+  // 新闻墙
+  newsWall: [{
+    id: 1,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 2,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 3,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 4,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
   }]
 }
 

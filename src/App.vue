@@ -12,9 +12,9 @@
       .row.text-center.ft-white
         i.fa.fa-copyright
         | 2017&nbsp;&nbsp;怡康地产&版权所有[
-        a(href="http://www.miitbeian.gov.cn/") 苏ICP备05032468号
+        a(href="http://www.miitbeian.gov.cn/", target="_blank") 皖ICP备16014253号
         | ]&nbsp;&nbsp;|&nbsp;&nbsp;技术支持&nbsp;&nbsp;
-        a(href="#") 山姆极客
+        a(href="http://www.thinkingsam.cn") 山姆极客
     transition(name="fade",enter-active-class="fadeInUp",leave-active-class="fadeOutDown")
       .bottom-dot(v-if="canShowBottomBtn",v-scroll-to="{ el: '#app' }")
 </template>
