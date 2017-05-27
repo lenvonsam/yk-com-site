@@ -15,6 +15,9 @@ let keyRoutes = [{
 }, {
   path: '/news',
   component: require('../pages/News.vue')
+}, {
+  path: '/htmlDetail',
+  component: require('../pages/HtmlDetail.vue')
 }]
 
 keyRoutes.map((m) => {

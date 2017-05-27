@@ -1,6 +1,7 @@
 const state = {
   vtoMark: '',
   topTabIndex: 0,
+  pageSize: 9,
   rightTitles: [{
     name: '首页',
     url: {
@@ -74,6 +75,66 @@ const state = {
     time: '2017-01-02'
   }, {
     id: 4,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 5,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 6,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 7,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 8,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 9,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 10,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 11,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 12,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 13,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 14,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 15,
+    newPic: require('../assets/honour1.png'),
+    title: '武进房地产全体成员',
+    time: '2017-01-02'
+  }, {
+    id: 16,
     newPic: require('../assets/honour1.png'),
     title: '武进房地产全体成员',
     time: '2017-01-02'

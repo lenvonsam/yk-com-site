@@ -5,9 +5,9 @@
       li.active 新闻中心
 
     .row
-      .col-sm-4(v-for="nw in newsWall")
+      .col-sm-4(v-for="nw in currentNews")
         .news-wrap
-          .news-img(:style="{backgroundImage: 'url('+nw.newPic+')'}")
+          .news-img(:style="{backgroundImage: 'url('+nw.newPic+')'}",@click="jumpToDetail(nw)")
             .mask
             .detail
               a 详细阅读
@@ -15,18 +15,10 @@
             h3 {{nw.title}}
             p
               | 发布者：杨明悟
-              span(style="margin-left:10px") |
-              span(style="margin-left:10px;") 2017-02-03
-
-    //- .row.text-center
-      p 加载更多...
-    .row.text-center
-      pagination.yea-paginate(for="xxl", :records="100", :count-text="''", :per-page="5")
-    //- ul.pager
-      li.previous
-        a xxx
-      li.next
-        a xxx
+              span.ml-10 |
+              span.ml-10(style="color:#666") 2017-02-03
+    .row.text-center(v-if="newsWall.length>pageSize")
+      pagination.yea-paginate(for="newsListPg", :records="newsWall.length", :count-text="''", :per-page="pageSize")
 </template>
 
 <script>
@@ -35,24 +27,42 @@
   export default {
     data () {
       return {
-        busy: false
+        currentPage: 0,
+        currentNews: []
       }
+    },
+    beforeMount () {
+      this.currentNews = this.currentArray(this.currentPage, this.pageSize, this.newsWall)
     },
     components: {
     },
     mounted () {
-      PaginationEvent.$on('vue-pagination::xxl', page => {
-        console.log(page)
+      const me = this
+      PaginationEvent.$on('vue-pagination::newsListPg', page => {
+        me.currentPage = page - 1
+        me.currentNews = me.currentArray(me.currentPage * me.pageSize, me.pageSize, me.newsWall)
       })
     },
     computed: {
       ...mapState({
-        newsWall: state => state.newsWall
+        newsWall: state => state.newsWall,
+        pageSize: state => state.pageSize
       })
     },
     methods: {
-      loadMore () {
-        console.log('loadMore')
+      jumpToDetail (item) {
+        let query = {
+          currentTopIdx: 2,
+          title: item.title,
+          author: item.author || 'xxx',
+          content: encodeURI(item.content || '<p>测试</p>'),
+          time: item.time,
+          currentpart: '新闻中心'
+        }
+        this.jump({
+          path: '/htmlDetail',
+          query
+        })
       }
     }
   }
