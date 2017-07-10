@@ -13,11 +13,32 @@ let keyRoutes = [{
   path: '/intro',
   component: require('../pages/YkIntro.vue')
 }, {
+  path: '/gyhd',
+  component: require('../pages/HtmlList.vue')
+}, {
+  path: '/csmj',
+  component: require('../pages/HtmlList.vue')
+}, {
+  path: '/mtbd',
+  component: require('../pages/HtmlList.vue')
+}, {
   path: '/news',
-  component: require('../pages/News.vue')
+  component: require('../pages/HtmlList.vue')
 }, {
   path: '/htmlDetail',
   component: require('../pages/HtmlDetail.vue')
+}, {
+  path: '/qrcodeList',
+  component: require('../pages/QrcodeList.vue')
+}, {
+  path: '/imgQrcodeList',
+  component: require('../pages/ImgQrcodeList.vue')
+}, {
+  path: '/slide3dList',
+  component: require('../pages/Slide3dList.vue')
+}, {
+  path: '/ykRecruit',
+  component: require('../pages/YkRecruit.vue')
 }]
 
 keyRoutes.map((m) => {

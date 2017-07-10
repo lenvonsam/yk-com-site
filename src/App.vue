@@ -1,14 +1,14 @@
 <template lang="pug">
-  #app
+  #app(:class="{'pb-80': fixBottom}")
     navbar(placement="top",style="background:#fff;")
       img.img-responsive(src="./assets/yklogo.png",style="width:120px;height:46px;margin-top:2px;",slot="brand")
       li.right-txt(slot="right",v-for="(rt,i) in rightTitles", :class="{'dp': rt.type == 'dropdown'}")
         a(:class="{'active': i == topTabIndex}", v-if="rt.type== 'text'",@click="jump(rt.url)") {{rt.name}}
         dropdown(:text="rt.name",:class="{'active': i == topTabIndex}",v-else)
-          li(v-for="subt in rt.subTitles",@click="subSwitchTopTab(rt, subt.vto)")
+          li(v-for="subt in rt.subTitles",@click="subSwitchTopTab(rt, subt)")
             a {{subt.name}}
     router-view
-    .footer
+    .footer(:class="{'fix-bottom': fixBottom}")
       .row.text-center.ft-white
         i.fa.fa-copyright
         | 2017&nbsp;&nbsp;怡康地产&版权所有[
@@ -40,7 +40,8 @@
     computed: {
       ...mapState({
         rightTitles: state => state.rightTitles,
-        topTabIndex: state => state.topTabIndex
+        topTabIndex: state => state.topTabIndex,
+        fixBottom: state => state.fixBottom
       })
     },
     methods: {
@@ -57,8 +58,14 @@
         }
       },
       subSwitchTopTab (rt, sub) {
-        this.configKeyVal({key: 'vtoMark', val: sub})
-        this.jump(rt.url)
+        console.log(sub.type)
+        if (sub.type === 'anchor') {
+          this.configKeyVal({key: 'vtoMark', val: sub.vto})
+          this.jump(rt.url)
+        } else if (sub.type === 'link') {
+          console.log(sub.url)
+          this.jump(sub.url)
+        }
       }
     }
   }
@@ -98,6 +105,13 @@
     background: #f0ad4e;
     padding: 2em 0;
     text-align: center;
+  }
+
+  .footer.fix-bottom {
+    position: absolute !important;
+    bottom: 0px !important;
+    left: 0px;
+    right: 0px;
   }
   .footer a {
     color: #fff;

@@ -10,6 +10,10 @@ body
 {
     font-family: 'Microsoft YaHei';
 
+    position: relative;
+
+    min-height: 100vh;
+
     color: #2c3e50;
 
     -webkit-font-smoothing: antialiased;
@@ -31,6 +35,16 @@ img
     object-fit: cover;
 }
 
+.ft-blod
+{
+    font-weight: bold;
+}
+
+.ft-20
+{
+    font-size: 20px;
+}
+
 .ft-white
 {
     color: #fff !important;
@@ -46,17 +60,62 @@ a:hover
     cursor: pointer;
 }
 
-.padding {
+.padding
+{
     padding: 10px 10px;
 }
 
-.ml-10 {
+.pl-10per
+{
+    padding-left: 10%;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.ml-10
+{
     margin-left: 10px;
 }
 
 .pt-15
 {
     padding-top: 15px;
+}
+
+.section-scroll-wrapper
+{
+    position: relative;
+
+    overflow: hidden;
+}
+
+.section-scroll-wrapper > .section-scroll
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.pb-80
+{
+    padding-bottom: 80px;
+}
+
+.mb-10
+{
+    margin-bottom: 10px;
+}
+
+.mb-15
+{
+    margin-bottom: 15px;
 }
 
 .mb-20
@@ -85,7 +144,29 @@ a:hover
 
     .content .section.team-intro
     {
-        height: 1400px ;
+        height: 950px;
+    }
+
+    .content .section.team-intro .intro-img {
+        height: 180px !important;
+    }
+
+    .content .section.team-intro strong,
+    .content .section.culture-intro strong
+    {
+        top: 3%;
+    }
+
+    .content .section.team-intro .part,
+    .content .section.culture-intro .part
+    {
+        top: 10%;
+    }
+
+    .content .section.team-intro .col-sm-4,
+    .content .section.industry-intro .col-sm-4
+    {
+        padding-left: 0px;
     }
 
     .content .section.industry-intro
@@ -93,23 +174,39 @@ a:hover
         height: 850px;
     }
 
-    .content .comp-summary
+    .content .section.culture-intro
     {
-        height: 800px !important;
+        height: 1300px;
     }
 
     .develop-icon:after
     {
         height: 0 !important;
     }
+
+    .content .detail-back {
+        margin-bottom: 30px !important;
+    }
+
+    img.img-3d {
+        height: 350px;
+    }
 }
 
 @media (min-width: 769px)
 {
+    img.img-3d {
+        height: 500px;
+    }
+
     .navbar-right .right-txt.dp
     {
         padding-top: 15px;
         padding-left: 0;
+    }
+
+    .content .section.team-intro .intro-img {
+        height: 250px !important;
     }
 }
 
@@ -158,4 +255,17 @@ a:hover
     background: #d9982e;
 }
 
+.title-bottom-line
+{
+    display: inline-block;
 
+    width: 30px;
+    height: 2px;
+
+    background: #d9982e;
+}
+
+.ql-align-center
+{
+    text-align: center;
+}

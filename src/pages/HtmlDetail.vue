@@ -1,50 +1,65 @@
 <template lang="pug">
-  .content.container
+  .content.container(v-if="isShow")
     ol.breadcrumb
       li 首页
-      li.active {{topPart}}
+      li.active {{detailObj.topPart}}
     .container
       .row
-        h1.text-center {{title}}
+        h1.text-center {{detailObj.title}}
         br
         p(style="color:#666")
-          span 发布时间: {{time}}
-          span.pull-right 作者：{{author}}
+          span 发布时间: {{detailObj.time}}
+          span.pull-right 作者：{{detailObj.author}}
         hr
-      .padding(v-html="content")
+      .padding(v-html="newsContent")
       .row
-        .detail-back(@click="back")
+        .detail-back(@click="jump({path:'/'})",v-if="detailObj.backToRoot")
+          i.glyphicon.glyphicon-menu-left
+          span.pull-right 返回首页
+        .detail-back(@click="back",v-else)
           i.glyphicon.glyphicon-menu-left
           span.pull-right 返回
-
-
 </template>
 
 <script>
-  import { mapActions } from 'vuex'
+  import { mapActions, mapState } from 'vuex'
   export default {
     data () {
       return {
-        topPart: '',
-        title: '',
-        author: '',
-        time: '',
-        content: ''
+        detailObj: {},
+        isShow: false
       }
     },
     beforeMount () {
       console.log(this.$route)
-      let obj = this.$route.query
-      this.topPart = obj.currentpart
-      this.title = obj.title
-      this.time = obj.time
-      this.author = obj.author
-      this.content = decodeURI(obj.content)
-      this.configKeyVal({key: 'topTabIndex', val: obj.currentTopIdx})
+      this.detailObj = {}
+      this.isShow = false
+      this.detailObj = this.$route.query
+      // this.detailObj.content = decodeURI(this.detailObj.content)
+      this.configKeyVal({key: 'topTabIndex', val: this.detailObj.currentTopIdx})
+      this.configNewsContent({detailid: this.detailObj.detailid})
+      this.isShow = true
+    },
+    watch: {
+      '$route.query': {
+        handler: function (newVal, oldVal) {
+          console.log('watch new detailObj')
+          this.detailObj = newVal
+          // this.detailObj.content = decodeURI(this.detailObj.content)
+          this.configKeyVal({key: 'topTabIndex', val: this.detailObj.currentTopIdx})
+        },
+        deep: true
+      }
+    },
+    computed: {
+      ...mapState({
+        newsContent: state => state.newsContent
+      })
     },
     methods: {
       ...mapActions([
-        'configKeyVal'
+        'configKeyVal',
+        'configNewsContent'
       ])
     }
   }
@@ -64,4 +79,5 @@
     cursor: pointer;
     background: #d8885e;
   }
+
 </style>

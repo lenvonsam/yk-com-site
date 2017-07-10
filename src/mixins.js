@@ -25,6 +25,9 @@ export default {
         }
       }
       return newArray
+    },
+    decodeContentURI (encodeStr) {
+      return decodeURI(encodeStr)
     }
   }
 }
