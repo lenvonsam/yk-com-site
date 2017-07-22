@@ -26,23 +26,23 @@
       .part
         .row
           .col-sm-4
-            img.img-responsive.intro-img(src="../assets/teammodel.jpg",style="width:100%;")
+            img.img-responsive.intro-img(v-lazy="'http://osecpxcsy.bkt.clouddn.com/teammodel.jpg'",style="width:100%;")
             .grid-content(style="margin-bottom: 20px;")
               h4 人才理念及培训项目
               div.text-right
-                span.label.label-warning.comp-intor-more-label(@click="jump({path: '/slide3dList', query: {currentTopIdx: 4,topTitle: '人才理念及培训项目', contentKey: 'rcList'}})") 详情
+                span.label.label-warning.comp-intor-more-label(@click="jump({path: '/slide3dList', query: {currentTopIdx: 4,topPart: '人才理念及培训项目', contentKey: 'rcList'}})") 详情
           .col-sm-4
-            img.intro-img(src="../assets/px2.jpg",style="width:100%;")
+            img.intro-img(v-lazy="'http://osecpxcsy.bkt.clouddn.com/pxmain.jpg'",style="width:100%;")
             .grid-content(style="margin-bottom: 20px;")
               h4 培训与成长
               div.text-right
                 span.label.label-warning.comp-intor-more-label(@click="jump({path: '/slide3dList', query: {currentTopIdx: 4, topTitle: '培训与成长', contentKey: 'pxList'}})") 详情
           .col-sm-4
-            img.img-responsive.intro-img(src="../assets/zp1.jpg",style="width:100%;")
+            img.img-responsive.intro-img(v-lazy="'http://osecpxcsy.bkt.clouddn.com/zpmain.jpg'",style="width:100%;")
             .grid-content(style="margin-bottom: 20px;")
               h4 人才招聘
               div.text-right
-                span.label.label-warning.comp-intor-more-label(@click="jump({path: '/slide3dList', query: {currentTopIdx: 4, topTitle: '人才招聘', contentKey: 'zpList'}})") 详情
+                span.label.label-warning.comp-intor-more-label(@click="jump({path: '/ykRecruit', query: {currentTopIdx: 4}})") 详情
     .section.culture-intro
       strong [怡康文化]
       .part

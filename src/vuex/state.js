@@ -627,19 +627,19 @@ const state = {
     content: '<div style="padding-top:5%"><h3>团队制胜</h3><h3 class="text-center">不断进取</h3><h3 style="text-align:right">追求卓越</h3></div>'
   },
   // 招聘
-  zpList: {
-    banners: [{
-      imgUrl: require('../assets/zp1.jpg'),
-      id: 1
-    }, {
-      imgUrl: require('../assets/zp2.jpg'),
-      id: 2
-    }, {
-      imgUrl: require('../assets/zp3.jpg'),
-      id: 3
-    }],
-    content: '<div>怡康招聘理念:.....<p>怡康招聘标准:.......</p><p>怡康招聘职位:....</p><p><a href="http://nj.58.com/" target="_blank">加入我们</a></p></div>'
-  },
+  // zpList: {
+  //   banners: [{
+  //     imgUrl: require('../assets/zp1.jpg'),
+  //     id: 1
+  //   }, {
+  //     imgUrl: require('../assets/zp2.jpg'),
+  //     id: 2
+  //   }, {
+  //     imgUrl: require('../assets/zp3.jpg'),
+  //     id: 3
+  //   }],
+  //   content: '<div>怡康招聘理念:.....<p>怡康招聘标准:.......</p><p>怡康招聘职位:....</p><p><a href="http://nj.58.com/" target="_blank">加入我们</a></p></div>'
+  // },
   // 内容详情列表
   detailList: [{
     id: 1,

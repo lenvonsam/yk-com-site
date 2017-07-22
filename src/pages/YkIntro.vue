@@ -21,7 +21,7 @@
       hr
       .row
         .col-sm-4.mb-20
-          img.img-responsive.img-rounded(v-lazy="'http://osecpxcsy.bkt.clouddn.com/dmx.jpg'")
+          img.img-responsive.img-rounded(v-lazy="'http://osecpxcsy.bkt.clouddn.com/nmxnew.jpg'")
         .col-sm-8.mb-20.intro-font(v-html="aboutYk.dmxIntro")
     .container
       h3.text-center.ft-primary
@@ -31,7 +31,7 @@
       .row
         .col-sm-4.mb-20
           //- img.img-responsive.img-rounded(v-lazy="'http://osecpxcsy.bkt.clouddn.com/ykyyq.jpg'")
-          img.img-responsive.img-rounded(v-lazy="'http://osecpxcsy.bkt.clouddn.com/yyq5.jpg'")
+          img.img-responsive.img-rounded(v-lazy="'http://osecpxcsy.bkt.clouddn.com/yyqnew.jpg'")
         .col-sm-8.intro-font(v-html="aboutYk.yyqIntro")
     .container.comp-process
       h3.text-center.ft-primary

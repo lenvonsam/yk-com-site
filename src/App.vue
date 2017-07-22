@@ -1,7 +1,7 @@
 <template lang="pug">
   #app(:class="{'pb-80': fixBottom}")
     navbar(placement="top",style="background:#fff;")
-      img.img-responsive(src="./assets/yklogo.png",style="width:120px;height:46px;margin-top:2px;",slot="brand")
+      img.img-responsive(v-lazy="'http://osecpxcsy.bkt.clouddn.com/yklogo.png'",style="width:120px;height:46px;margin-top:2px;",slot="brand")
       li.right-txt(slot="right",v-for="(rt,i) in rightTitles", :class="{'dp': rt.type == 'dropdown'}")
         a(:class="{'active': i == topTabIndex}", v-if="rt.type== 'text'",@click="jump(rt.url)") {{rt.name}}
         dropdown(:text="rt.name",:class="{'active': i == topTabIndex}",v-else)
