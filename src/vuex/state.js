@@ -389,6 +389,20 @@ const state = {
   // 公益活动墙
   gyhdWall: [{
     id: 1,
+    url: 'http://osecpxcsy.bkt.clouddn.com/dj20170810_1.jpg',
+    title: '韶山党建活动',
+    time: '2017-08-10',
+    author: '怡康地产',
+    detailid: 19
+  }, {
+    id: 2,
+    url: 'http://osecpxcsy.bkt.clouddn.com/dj20170726_1.jpg',
+    title: '固镇县教育基地参观学习',
+    time: '2017-07-26',
+    author: '怡康地产',
+    detailid: 20
+  }, {
+    id: 3,
     url: 'http://osecpxcsy.bkt.clouddn.com/yjjdhd2.jpg',
     title: '怡嘉党支部成立',
     time: '2016-06',
@@ -529,11 +543,14 @@ const state = {
       qrUrl: 'http://osecpxcsy.bkt.clouddn.com/ykqrcode.png'
     }, {
       banners: [{
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/bbykglgs.jpg',
+        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/bbykwy_1.jpg',
         id: 1
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/bbykglgs2.jpg',
+        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/bbykglgs.jpg',
         id: 2
+      }, {
+        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/bbykglgs2.jpg',
+        id: 3
       }],
       title: '蚌埠市怡康管理有限公司',
       addr: '安徽省蚌埠市淮上区永安街270号1号商铺',
@@ -544,11 +561,14 @@ const state = {
     title: '幼教事业',
     projects: [{
       banners: [{
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/yjhyyey.jpg',
+        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/ykbabyschool_3.jpg',
         id: 1
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/ykschool1.jpg',
+        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/yjhyyey.jpg',
         id: 2
+      }, {
+        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/ykschool1.jpg',
+        id: 3
       }],
       title: '常州怡康幼儿园',
       addr: '江苏省常州市关河中路80号怡康花园内',
@@ -695,6 +715,12 @@ const state = {
   }, {
     id: 18,
     content: '<blockquote>2013年12月29日，“上河时代”为了回馈业主，特地举行了年终新品发布会。</blockquote><p><br></p><p>活动截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/news13.jpg"></p>'
+  }, {
+    id: 19,
+    content: '<blockquote>2017年8月10日，怡康置业党支部组织了韶山党建活动，认真学习党的指导方针，并毛主席铜像献上花篮以表敬意，合影留念。</blockquote><p><br></p><p>活动截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/dj20170810_2.jpg"></p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/dj20170810_3.jpg"/></p>'
+  }, {
+    id: 20,
+    content: '<blockquote>2017年7月26日，怡康置业党支部到固镇消防大队廉政教育基地参观学习。</blockquote><p><br></p><p>活动截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/dj20170726_2.jpg "></p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/dj20170726_1.jpg"/></p>'
   }],
   // 招聘职位
   zpzwList: [{

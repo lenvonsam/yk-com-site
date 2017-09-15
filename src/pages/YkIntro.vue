@@ -7,8 +7,9 @@
           .col-sm-4.mb-20
             img.img-responsive.img-rounded(v-lazy="'http://osecpxcsy.bkt.clouddn.com/ykhyndmlogo.jpg'",style="max-height:300px")
           .col-sm-8.mb-20.section-scroll-wrapper.intro-font(style="height:330px;")
-            .section-scroll(style="overflow-y: hidden")
+            .section-scroll(style="overflow-y: auto")
               div(v-html="aboutYk.compIntro")
+            .clearfix
     .container
       h3.text-center.ft-primary
         | 创始人介绍
@@ -114,5 +115,11 @@
     left: 48px;
     top: 70px;
     bottom: -20px;
+  }
+
+  @media (max-width: 600px) {
+    .comp-summary {
+      height: 660px;
+    }
   }
 </style>
