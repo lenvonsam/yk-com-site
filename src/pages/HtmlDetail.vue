@@ -37,7 +37,11 @@
       this.detailObj = this.$route.query
       // this.detailObj.content = decodeURI(this.detailObj.content)
       this.configKeyVal({key: 'topTabIndex', val: this.detailObj.currentTopIdx})
-      this.configNewsContent({detailid: this.detailObj.detailid})
+      if (this.detailObj.detailid > -1) {
+        this.configNewsContent({detailid: this.detailObj.detailid})
+      } else {
+        this.configKeyVal({key: 'newsContent', val: this.detailObj.htmlContent})
+      }
       this.isShow = true
     },
     watch: {

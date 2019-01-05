@@ -17,20 +17,26 @@
               | 发布者：{{p.author}}
               span.ml-10 |
               span.ml-10(style="color:#666") {{p.time}}
-    .row.text-center(v-if="listArray.length>pageSize")
-      pagination.yea-paginate(for="htmlListPg", :records="listArray.length", :count-text="''", :per-page="pageSize")
+    .row.text-center(v-if="totalCount>pageSize")
+      pagination.yea-paginate(for="htmlListPg", :records="totalCount", :count-text="''", :per-page="pageSize")
+    alert.text-center(v-model="alertShow", type="danger", placement="top",  width="600px")
+      strong {{errMsg}}
 </template>
 
 <script>
   import { mapState, mapActions } from 'vuex'
   import { PaginationEvent } from 'vue-pagination-2'
+  import { alert } from 'vue-strap'
   export default {
     data () {
       return {
         currentPage: 0,
         pages: [],
         pageTitle: '',
-        topIdx: 0
+        topIdx: 0,
+        alertShow: false,
+        errMsg: '',
+        totalCount: 0
       }
     },
     beforeMount () {
@@ -39,7 +45,12 @@
       this.topIdx = query.currentTopIdx
       this.configKeyVal({key: 'topTabIndex', val: query.currentTopIdx})
       this.configPathVal({path: this.$route.path})
-      this.pages = this.currentArray(this.currentPage, this.pageSize, this.listArray)
+      if (this.$route.path === '/news') {
+        this.loadData()
+      } else {
+        this.pages = this.currentArray(this.currentPage, this.pageSize, this.listArray)
+        this.totalCount = this.listArray.length
+      }
     },
     watch: {
       '$route.path': {
@@ -54,6 +65,7 @@
       }
     },
     components: {
+      alert
     },
     mounted () {
       const me = this
@@ -65,7 +77,8 @@
     computed: {
       ...mapState({
         listArray: state => state.listArray,
-        pageSize: state => state.pageSize
+        pageSize: state => state.pageSize,
+        transformUrl: state => state.transformUrl
       })
     },
     methods: {
@@ -83,10 +96,51 @@
           detailid: item.detailid,
           backToRoot: false
         }
+        if (this.$route.path === '/news') {
+          query.detailid = -1
+          query.htmlContent = item.articleDetail
+        }
         this.jump({
           path: '/htmlDetail',
           query
         })
+      },
+      loadData () {
+        const me = this
+        this.request(this.transformUrl + 'api/yeacom/news?pageSize=' + this.pageSize + '&currentPage=' + this.currentPage).then(data => {
+          console.log('data', data)
+          if (data.return_code === 0) {
+            me.totalCount = data.total
+            if (me.currentPage === 0 && data.list.length > 0) {
+              me.formatData(data.list, false)
+            } else if (me.currentPage > 0 && data.list.length > 0) {
+              me.formatData(data.list)
+            } else if (me.currentPage === 0 && data.list.length === 0) {
+              me.pages = []
+            }
+          } else {
+            me.msgShow(data.message)
+          }
+        }).catch(err => {
+          me.msgShow(err.message || '网络异常')
+        })
+      },
+      formatData (source, append = true) {
+        if (!append) this.pages = []
+        source.map(itm => {
+          itm.time = this.formatDate(new Date(itm.publishTime))
+          itm.url = itm.images.url
+          this.pages.push(itm)
+        })
+      },
+      msgShow (msg) {
+        const me = this
+        me.errMsg = msg
+        me.alertShow = true
+        setTimeout(function () {
+          me.alertShow = false
+          me.errMsg = ''
+        }, 3000)
       }
     }
   }

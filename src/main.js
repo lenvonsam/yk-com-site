@@ -1,7 +1,5 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
-import 'bootstrap/dist/css/bootstrap.css'
-import 'font-awesome/css/font-awesome.css'
 import 'animate.css'
 import 'vue2-animate/dist/vue2-animate.min.css'
 import './common.css'
@@ -10,7 +8,6 @@ import App from './App'
 import router from './router'
 import store from './vuex/store'
 import VueScrollTo from 'vue-scrollto'
-import VueTouch from 'vue2-touch'
 import AMap from 'vue-amap'
 import mixins from './mixins'
 import {Pagination} from 'vue-pagination-2'
@@ -19,7 +16,6 @@ import Carousel3d from 'vue-carousel-3d'
 import VueLazyload from 'vue-lazyload'
 
 Vue.config.productionTip = false
-Vue.use(VueTouch)
 Vue.use(VueScrollTo, {
   container: 'body',
   duration: 1500,

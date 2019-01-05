@@ -4,6 +4,7 @@ const state = {
   pageSize: 9,
   fixBottom: false,
   listArray: [],
+  transformUrl: 'http://47.105.170.16:8080/yeacom-server/',
   newsContent: '<div class="text clear" id="contentText"><div itemprop="articleBody"><div align="center">李克强在国务院党组理论学习中心组学习讲座上强调<p>　　准确把握世界科技革命产业变革新趋势</p>深入实施创新驱动 努力赢得发展未来</div><div align="center"><img src="http://photocdn.sohu.com/20170625/Img498543583.jpeg" alt="" width="550" class="flag_bigP"><div style="top: 1183px; left: 797.5px; display: block;" class="conserve-photo" ondragstart="return false;" picurl="http://photocdn.sohu.com/20170625/Img498543583.jpeg" desc=""> <div class="comCount">1</div></div></div><div align="center"><span style="font-size: 12px;">新华社 姚大伟 摄</span></div><div align="left"><p>　　6月22日，中共中央政治局常委、国务院总理、党组书记李克强主持国务院党组理论学习中心组学习讲座，就新一轮世界科技革命和产业变革若干前沿领域发展态势进行专题学习。</p>白春礼、潘云鹤、潘建伟、周琪院士分别围绕世界新科技革命和产业变革总体态势以及人工智能、量子科学、基因编辑等专题作了讲解，并提出相关政策建议。国务院党组各位同志听取了讲解，并与专家互动交流。</div><div align="center"><img src="http://photocdn.sohu.com/20170625/Img498543586.jpeg" alt="" width="550" class="flag_bigP"><div style="top: 1731px; left: 797.5px; display: block;" class="conserve-photo" ondragstart="return false;" picurl="http://photocdn.sohu.com/20170625/Img498543586.jpeg" desc=""> <div class="comCount">1</div></div></div><div align="center"><span style="font-size: 12px;">中新社 盛佳鹏 摄</span></div><div align="left"><p>　　在听取专家讲解后，李克强说，当前，新一轮世界科技革命和产业变革孕育兴起，它具有极大的冲击力，正在对人类社会带来难以估量的作用和影响，将引发未来世界经济政治格局深刻调整，可能重塑国家竞争力在全球的位置，颠覆现有很多产业的形态、分工和组织方式，实现多领域融通，重构人们的生活、学习和思维方式，乃至改变人与世界的关系。这其中既蕴含着重大机遇，但也存在巨大的不确定性，未知远大于已知，会带来多方面挑战。凡事预则立，不预则废。面对渗透各方、扑面而来的科技革命和产业变革浪潮，我们必须站高、看远、想深、谋实，增强紧迫感，以积极作为抢占制高点、把握主动权，开创我国现代化建设的新未来。</p>李克强指出，抢抓机遇，必须深入实施创新驱动发展战略，瞄准主攻方向，努力追赶或站上世界科技前沿。面向人工智能、量子科学、基因编辑和新材料、新能源等关键领域，在突破核心技术、拿出原创性成果上下功夫，在更多领域实现由“跟跑”变为“并跑”，有的甚至可争取“领跑”。面对新科技革命和产业变革带来的供需结构深刻变化，在关系国家核心利益和安全、亿万民众福祉等领域，紧密结合“中国制造2025”、“互联网+”等，依托重大科技工程，通过联合攻关和协同创新，突破更多技术瓶颈，形成跨界融合、系统集成能力，增强产业持续创新力，推动传统动能改造升级和新动能成长壮大，促进中国经济长期保持中高速增长、迈向中高端水平。</div><div align="center"><img src="http://photocdn.sohu.com/20170625/Img498543588.jpeg" alt="" width="550" class="flag_bigP"><div style="top: 2522px; left: 797.5px; display: block;" class="conserve-photo" ondragstart="return false;" picurl="http://photocdn.sohu.com/20170625/Img498543588.jpeg" desc=""> <div class="comCount">1</div></div></div><div align="center"><span style="font-size: 12px;">中国日报 冯永斌 摄</span></div><div align="left"><p>　　李克强说，要在新一轮全球科技竞争中赢得战略主动，必须加强基础研究这个重要支撑。要紧扣突出短板，加大长期稳定支持力度，促进企业发挥基础研究生力军作用，落实好相关政策，加大对人才资源的投入，充分调动科研人员的积极性，让他们把国家目标与个人兴趣有机结合起来，自由探索未知空间，努力在探索奥秘、发现规律中有更多中国科学家的贡献。同时，把基础研究与应用研究更好结合，推动科技与产业贯通，加速科研成果转化为现实生产力，为创新驱动发展提供更多源头活水。</p>李克强指出，本轮科技革命和产业变革不同以往，抢抓机遇，赢得主动，根本要靠深化改革和扩大开放，培育不同以往的新型创新机制和创新主体。要深化“放管服”改革，更大程度给科研院所和高校松绑减负，充分释放各类创新资源的活力。改进科研项目资助和评价机制，着力完善评审制度，更多发挥市场机制的选择作用，由社会实践成效来衡量，真正把宝贵资源更多投向好项目、好团队。推动更多国家重大科研基础设施和科学数据、仪器设备向各类创新主体开放，在共享中发挥更大效益。要打造汇聚各方力量的创新大军。发挥科研院所的骨干领军作用和企业的主体作用，推动大众创业、万众创新，推动个体与“群智”紧密结合，科研院所、高校、企业、普通创客深度融通，线上线下深入融合，国际国内深化合作，形成中国式创新新模式和创新“加速度”。要以全球视野学世界之长，让创新合作成为国际合作的新亮点。</div><div align="center"><img src="http://photocdn.sohu.com/20170625/Img498543589.jpeg" alt="" width="550" class="flag_bigP"><div style="top: 3304px; left: 797.5px; display: block;" class="conserve-photo" ondragstart="return false;" picurl="http://photocdn.sohu.com/20170625/Img498543589.jpeg" desc=""> <div class="comCount">1</div></div></div><div align="center"><span style="font-size: 12px;">中新社 盛佳鹏 摄</span></div><p>　　李克强说，各级政府领导干部要在以习近平同志为核心的党中央领导下，主动作为，追求新知，避免在日新月异的科技革命和产业变革中落伍甚至成为新的科盲。要创新政策，以更优的环境和包容审慎监管助力新产业、新业态等健康发展，加快建设创新型国家和世界科技强国。</p><p>　　讲座前，李克强等国务院党组同志还观看了人工智能等先进科技成果展。</p></div><div style="display:none;"><span id="url" itemprop="url">http://news.sohu.com/20170625/n498543581.shtml</span>         <span id="indexUrl" itemprop="indexUrl">news.sohu.com</span>       <span id="isOriginal" itemprop="isOriginal">false</span><span id="sourceOrganization" itemprop="sourceOrganization" itemscope="" itemtype="http://schema.org/Organization"><span itemprop="name">中国政府网</span></span><span id="author" itemprop="author" itemscope="" itemtype="http://schema.org/Organization"><span itemprop="name"></span></span><span id="isBasedOnUrl" itemprop="isBasedOnUrl">http://www.gov.cn/premier/2017-06/25/content_5205316.htm</span><span id="genre" itemprop="genre">report</span><span id="wordCount" itemprop="wordCount">2621</span><span id="description" itemprop="description">李克强在国务院党组理论学习中心组学习讲座上强调准确把握世界科技革命产业变革新趋势深入实施创新驱动努力赢得发展未来新华社姚大伟摄6月22日，中共中央政治局常委、国</span></div></div>',
   rightTitles: [{
     name: '首页',
@@ -238,119 +239,119 @@ const state = {
       content: '1月蚌埠市五河县城南望府“尚客优连锁酒店”开业'
     }],
     honors: [{
-      url: 'http://osecpxcsy.bkt.clouddn.com/yeacomall.jpg',
+      url: 'http://yeacom.thinkingsam.cn/yeacomall.jpg',
       title: '公司荣誉墙'
     }, {
-      url: 'http://osecpxcsy.bkt.clouddn.com/honour4.jpg',
+      url: 'http://yeacom.thinkingsam.cn/honour4.jpg',
       title: '2008-2009”光彩之星“'
     }, {
-      url: 'http://osecpxcsy.bkt.clouddn.com/honour2.jpg',
+      url: 'http://yeacom.thinkingsam.cn/honour2.jpg',
       title: '2009“常州二十强企业”'
     }, {
-      url: 'http://osecpxcsy.bkt.clouddn.com/honour1.jpg',
+      url: 'http://yeacom.thinkingsam.cn/honour1.jpg',
       title: '2007-2008“常州二十强企业”'
     }, {
-      url: 'http://osecpxcsy.bkt.clouddn.com/honour5.jpg',
+      url: 'http://yeacom.thinkingsam.cn/honour5.jpg',
       title: '2006-2007“常州地产诚信企业”'
     }, {
-      url: 'http://osecpxcsy.bkt.clouddn.com/honour3.jpg',
+      url: 'http://yeacom.thinkingsam.cn/honour3.jpg',
       title: '2006-2007“先进私营企业”'
     }, {
-      url: 'http://osecpxcsy.bkt.clouddn.com/babyscholl21.jpg',
+      url: 'http://yeacom.thinkingsam.cn/babyscholl21.jpg',
       title: '2007“江苏省优质幼儿园”'
     }, {
-      url: 'http://osecpxcsy.bkt.clouddn.com/babyschool.jpg',
+      url: 'http://yeacom.thinkingsam.cn/babyschool.jpg',
       title: '2001“国家小康住宅示范小区”'
     }]
   },
   // 新闻墙
   newsWall: [{
     id: 1,
-    url: 'http://osecpxcsy.bkt.clouddn.com/new2.jpg',
+    url: 'http://yeacom.thinkingsam.cn/new2.jpg',
     title: '上河时代营销中心拆迁',
     time: '2017-04',
     author: '怡康地产',
     detailid: 6
   }, {
     id: 2,
-    url: 'http://osecpxcsy.bkt.clouddn.com/news11.jpg',
+    url: 'http://yeacom.thinkingsam.cn/news11.jpg',
     title: '蚌埠幼教集团入驻上河时代',
     time: '2014-01-18',
     author: '怡康地产',
     detailid: 16
   }, {
     id: 3,
-    url: 'http://osecpxcsy.bkt.clouddn.com/news12.jpg',
+    url: 'http://yeacom.thinkingsam.cn/news12.jpg',
     time: '2014-01-11',
     title: '蚌埠江苏商会领导莅临参观指导',
     author: '怡康地产',
     detailid: 17
   }, {
     id: 4,
-    url: 'http://osecpxcsy.bkt.clouddn.com/news13.jpg',
+    url: 'http://yeacom.thinkingsam.cn/news13.jpg',
     title: '“上河”新品发布会',
     time: '2013-12-29',
     author: '怡康地产',
     detailid: 18
   }, {
     id: 5,
-    url: 'http://osecpxcsy.bkt.clouddn.com/new3.jpg',
+    url: 'http://yeacom.thinkingsam.cn/new3.jpg',
     title: '金砖商务酒店开业',
     time: '2013-12',
     author: '怡康地产',
     detailid: 7
   }, {
     id: 6,
-    url: 'http://osecpxcsy.bkt.clouddn.com/news4.jpg',
+    url: 'http://yeacom.thinkingsam.cn/news4.jpg',
     title: '怡康机电市场5年庆',
     time: '2011-12',
     author: '怡康地产',
     detailid: 8
   }, {
     id: 7,
-    url: 'http://osecpxcsy.bkt.clouddn.com/news5.jpg',
+    url: 'http://yeacom.thinkingsam.cn/news5.jpg',
     title: '怡康机电市场开业',
     time: '2006-05',
     author: '怡康地产',
     detailid: 9
   }, {
     id: 8,
-    url: 'http://osecpxcsy.bkt.clouddn.com/news6.jpg',
+    url: 'http://yeacom.thinkingsam.cn/news6.jpg',
     title: '怡康中国和加拿大节能项目合作开工',
     time: '2002-08',
     author: '怡康地产',
     detailid: 10
   }, {
     id: 9,
-    url: 'http://osecpxcsy.bkt.clouddn.com/news7.jpg',
+    url: 'http://yeacom.thinkingsam.cn/news7.jpg',
     title: '怡康花园二建交付',
     time: '2002-02',
     author: '怡康地产',
     detailid: 11
   }, {
     id: 10,
-    url: 'http://osecpxcsy.bkt.clouddn.com/news8.jpg',
+    url: 'http://yeacom.thinkingsam.cn/news8.jpg',
     title: '怡康获“2000年小康示范小区”',
     time: '2001-05',
     author: '怡康地产',
     detailid: 12
   }, {
     id: 11,
-    url: 'http://osecpxcsy.bkt.clouddn.com/news9.jpg',
+    url: 'http://yeacom.thinkingsam.cn/news9.jpg',
     title: '怡康智能化鉴定',
     time: '2001-03',
     author: '怡康地产',
     detailid: 13
   }, {
     id: 12,
-    url: 'http://osecpxcsy.bkt.clouddn.com/news10.jpg',
+    url: 'http://yeacom.thinkingsam.cn/news10.jpg',
     title: '怡康花园一期主体竣工',
     time: '2001-01',
     author: '怡康地产',
     detailid: 14
   }, {
     id: 13,
-    url: 'http://osecpxcsy.bkt.clouddn.com/new1.jpg',
+    url: 'http://yeacom.thinkingsam.cn/new1.jpg',
     title: '怡康花园开盘',
     time: '1999-05',
     author: '怡康地产',
@@ -359,28 +360,28 @@ const state = {
   // 慈善募捐
   csmjWall: [{
     id: 1,
-    url: 'http://osecpxcsy.bkt.clouddn.com/yjcs2016jk.jpg',
+    url: 'http://yeacom.thinkingsam.cn/yjcs2016jk.jpg',
     title: '向蚌埠贫困儿童慈善捐款',
     time: '2016-6',
     author: '怡康地产',
     detailid: 2
   }, {
     id: 2,
-    url: 'http://osecpxcsy.bkt.clouddn.com/bbyjcs2015jk.jpg',
+    url: 'http://yeacom.thinkingsam.cn/bbyjcs2015jk.jpg',
     title: '情系春蕾、与爱同行',
     time: '2015-01-14',
     author: '怡康地产',
     detailid: 3
   }, {
     id: 3,
-    url: 'http://osecpxcsy.bkt.clouddn.com/ykbbcs2013jk.jpg',
+    url: 'http://yeacom.thinkingsam.cn/ykbbcs2013jk.jpg',
     title: '回馈社会，奉献爱心',
     time: '2013-06',
     author: '怡康地产',
     detailid: 4
   }, {
     id: 4,
-    url: 'http://osecpxcsy.bkt.clouddn.com/ykyjcs2012jd.jpg',
+    url: 'http://yeacom.thinkingsam.cn/ykyjcs2012jd.jpg',
     title: '凝聚慈善的力量',
     time: '2012-06',
     author: '怡康地产',
@@ -389,21 +390,21 @@ const state = {
   // 公益活动墙
   gyhdWall: [{
     id: 1,
-    url: 'http://osecpxcsy.bkt.clouddn.com/dj20170810_1.jpg',
+    url: 'http://yeacom.thinkingsam.cn/dj20170810_1.jpg',
     title: '韶山党建活动',
     time: '2017-08-10',
     author: '怡康地产',
     detailid: 19
   }, {
     id: 2,
-    url: 'http://osecpxcsy.bkt.clouddn.com/dj20170726_1.jpg',
+    url: 'http://yeacom.thinkingsam.cn/dj20170726_1.jpg',
     title: '固镇县教育基地参观学习',
     time: '2017-07-26',
     author: '怡康地产',
     detailid: 20
   }, {
     id: 3,
-    url: 'http://osecpxcsy.bkt.clouddn.com/yjjdhd2.jpg',
+    url: 'http://yeacom.thinkingsam.cn/yjjdhd2.jpg',
     title: '怡嘉党支部成立',
     time: '2016-06',
     author: '怡康地产',
@@ -421,109 +422,109 @@ const state = {
   kfjyList: [{
     id: 1,
     name: '江苏怡康控股集团有限公司',
-    url: 'http://osecpxcsy.bkt.clouddn.com/czykgjds.jpg',
+    url: 'http://yeacom.thinkingsam.cn/czykgjds.jpg',
     addr: '常州市关河中路68号怡康机电广场1号楼21F',
     contact: '0519-88881108',
     logourl: ''
   }, {
     id: 2,
     name: '常州俞记和嘉置业发展有限公司',
-    url: 'http://osecpxcsy.bkt.clouddn.com/czym.jpg',
+    url: 'http://yeacom.thinkingsam.cn/czym.jpg',
     addr: '常州市关河中路68号怡康机电广场1号楼21F',
     contact: '0519-88881108',
     logourl: ''
   }, {
     id: 3,
     name: '蚌埠市怡康房地产开发有限责任公司',
-    url: 'http://osecpxcsy.bkt.clouddn.com/bbwthy.jpg',
+    url: 'http://yeacom.thinkingsam.cn/bbwthy.jpg',
     addr: '蚌埠市淮上区永安街270号',
     contact: '0552-4029050',
     logourl: ''
   }, {
     id: 4,
     name: '蚌埠市怡嘉置业发展有限公司',
-    // url: 'http://osecpxcsy.bkt.clouddn.com/bbshsd.jpg',
-    url: 'http://osecpxcsy.bkt.clouddn.com/ykbbshsdlogo.jpg',
+    // url: 'http://yeacom.thinkingsam.cn/bbshsd.jpg',
+    url: 'http://yeacom.thinkingsam.cn/ykbbshsdlogo.jpg',
     addr: '安徽省蚌埠市永安街270号',
     contact: '0552-4029050',
-    logourl: 'http://osecpxcsy.bkt.clouddn.com/shsdLOGO.jpg'
+    logourl: 'http://yeacom.thinkingsam.cn/shsdLOGO.jpg'
   }, {
     id: 5,
     name: '五河县怡康房地产开发有限公司',
-    url: 'http://osecpxcsy.bkt.clouddn.com/bbcnwd.jpg',
+    url: 'http://yeacom.thinkingsam.cn/bbcnwd.jpg',
     addr: '安徽省五河县城关镇青年南路与惠民路交叉口',
     contact: '0552-5501166',
-    logourl: 'http://osecpxcsy.bkt.clouddn.com/cnwfLOGO.jpg'
+    logourl: 'http://yeacom.thinkingsam.cn/cnwfLOGO.jpg'
   }],
   // 资产经营列表
   zcjyList: [{
     title: '招商类',
     projects: [{
       banners: [{
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/ykjd2.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/ykjd2.jpg',
         id: 1
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/ykjd1.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/ykjd1.jpg',
         id: 2
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/ykjd3.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/ykjd3.jpg',
         id: 3
       }],
       title: '常州怡康五金机电市场',
       addr: '江苏省常州市关河中路68号怡康机电广场1号楼21F',
       contact: '0519-88881108',
-      qrUrl: 'http://osecpxcsy.bkt.clouddn.com/ykqrcode.png'
+      qrUrl: 'http://yeacom.thinkingsam.cn/ykqrcode.png'
     }]
   }, {
     title: '酒店类',
     projects: [{
       banners: [{
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/ykjz3.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/ykjz3.jpg',
         id: 1
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/ykjz2.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/ykjz2.jpg',
         id: 2
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/ykjz1.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/ykjz1.jpg',
         id: 3
       }],
       title: '常州金砖酒店',
       addr: '江苏省常州市关河中路68号怡康机电广场1号楼1',
       contact: '0519-88885555',
-      qrUrl: 'http://osecpxcsy.bkt.clouddn.com/ykqrcode.png'
+      qrUrl: 'http://yeacom.thinkingsam.cn/ykqrcode.png'
     }, {
       banners: [{
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/yk8tjd1.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/yk8tjd1.jpg',
         id: 1
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/yk8tjd2.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/yk8tjd2.jpg',
         id: 2
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/yk8tjd3.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/yk8tjd3.jpg',
         id: 3
       }],
       title: '常州八天酒店',
       addr: '江苏省常州市常州市关河中路68号怡康机电广场3号楼4F',
       contact: '0519-88259666',
-      qrUrl: 'http://osecpxcsy.bkt.clouddn.com/ykqrcode.png'
+      qrUrl: 'http://yeacom.thinkingsam.cn/ykqrcode.png'
     }, {
       banners: [{
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/bbwhskyljd.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/bbwhskyljd.jpg',
         id: 1
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/skhotel.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/skhotel.jpg',
         id: 2
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/skhotel1.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/skhotel1.jpg',
         id: 3
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/skhotel2.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/skhotel2.jpg',
         id: 4
       }],
       title: '五河尚客优酒店',
       addr: '安微省五河县惠民路与银河路交汇处',
       contact: '0552-5833666',
-      qrUrl: 'http://osecpxcsy.bkt.clouddn.com/ykqrcode.png'
+      qrUrl: 'http://yeacom.thinkingsam.cn/ykqrcode.png'
     }]
   }],
   // 其他经营列表
@@ -531,64 +532,64 @@ const state = {
     title: '物业管理类',
     projects: [{
       banners: [{
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/yksyglyxgs.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/yksyglyxgs.jpg',
         id: 1
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/ykhysyglgs1.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/ykhysyglgs1.jpg',
         id: 2
       }],
       title: '常州市怡康商业管理有限公司',
       addr: '江苏省常州市关河中路68号怡康机电广场1号楼21F',
       contact: '0519-88881108',
-      qrUrl: 'http://osecpxcsy.bkt.clouddn.com/ykqrcode.png'
+      qrUrl: 'http://yeacom.thinkingsam.cn/ykqrcode.png'
     }, {
       banners: [{
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/bbykwy_1.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/bbykwy_1.jpg',
         id: 1
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/bbykglgs.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/bbykglgs.jpg',
         id: 2
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/bbykglgs2.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/bbykglgs2.jpg',
         id: 3
       }],
       title: '蚌埠市怡康管理有限公司',
       addr: '安徽省蚌埠市淮上区永安街270号1号商铺',
       contact: '0552 4017676',
-      qrUrl: 'http://osecpxcsy.bkt.clouddn.com/ykqrcode.png'
+      qrUrl: 'http://yeacom.thinkingsam.cn/ykqrcode.png'
     }]
   }, {
     title: '幼教事业',
     projects: [{
       banners: [{
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/ykbabyschool_3.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/ykbabyschool_3.jpg',
         id: 1
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/yjhyyey.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/yjhyyey.jpg',
         id: 2
       }, {
-        imgUrl: 'http://osecpxcsy.bkt.clouddn.com/ykschool1.jpg',
+        imgUrl: 'http://yeacom.thinkingsam.cn/ykschool1.jpg',
         id: 3
       }],
       title: '常州怡康幼儿园',
       addr: '江苏省常州市关河中路80号怡康花园内',
       contact: '0519-88161355',
-      qrUrl: 'http://osecpxcsy.bkt.clouddn.com/ykqrcode.png'
+      qrUrl: 'http://yeacom.thinkingsam.cn/ykqrcode.png'
     }]
   }],
   // 人才培训banner
   rcList: {
     banners: [{
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/pxhd.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/pxhd.jpg',
       id: 1
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/pxhd2.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/pxhd2.jpg',
       id: 2
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/pxhd3.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/pxhd3.jpg',
       id: 3
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/pxhd4.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/pxhd4.jpg',
       id: 4
     }],
     content: '<div style="padding-top:5%;"><h3>以人为本，员工与企业共成长</h3><h3 class="text-center">先德后才、德才兼备</h3><h3 style="text-align:right">任人为贤、人尽其才</h3></div>'
@@ -596,52 +597,52 @@ const state = {
   // 培训与成长
   pxList: {
     banners: [{
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd10.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd10.jpg',
       id: 1
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd9.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd9.jpg',
       id: 2
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd8.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd8.jpg',
       id: 3
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd7.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd7.jpg',
       id: 4
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd5.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd5.jpg',
       id: 5
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd3.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd3.jpg',
       id: 6
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd2.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd2.jpg',
       id: 7
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd1.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd1.jpg',
       id: 8
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd11.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd11.jpg',
       id: 9
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd12.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd12.jpg',
       id: 10
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd13.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd13.jpg',
       id: 11
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd14.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd14.jpg',
       id: 12
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd15.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd15.jpg',
       id: 13
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd16.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd16.jpg',
       id: 14
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd17.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd17.jpg',
       id: 15
     }, {
-      imgUrl: 'http://osecpxcsy.bkt.clouddn.com/hd18.jpg',
+      imgUrl: 'http://yeacom.thinkingsam.cn/hd18.jpg',
       id: 16
     }],
     content: '<div style="padding-top:5%"><h3>团队制胜</h3><h3 class="text-center">不断进取</h3><h3 style="text-align:right">追求卓越</h3></div>'
@@ -663,64 +664,64 @@ const state = {
   // 内容详情列表
   detailList: [{
     id: 1,
-    content: '<blockquote>2006年6月，怡康怡嘉党支部正式成立，此次大会由集团总裁俞渊琼主持，强调集团要始终坚持中国共产党的领导，集团成员要始终拥护共产党，只要跟党走，坚持科学发展观，坚持社会主义道路，怡嘉集团必定会大方光彩。</blockquote><p><br></p><p>下面是此次大会的截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/yjjdhd.jpg"></p><p class="ql-align-center">(1)</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/yjjdhd1.jpg"></p><p class="ql-align-center">(2)</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/yjjdhd2.jpg"></p><p class="ql-align-center">(3)</p>'
+    content: '<blockquote>2006年6月，怡康怡嘉党支部正式成立，此次大会由集团总裁俞渊琼主持，强调集团要始终坚持中国共产党的领导，集团成员要始终拥护共产党，只要跟党走，坚持科学发展观，坚持社会主义道路，怡嘉集团必定会大方光彩。</blockquote><p><br></p><p>下面是此次大会的截图：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/yjjdhd.jpg"></p><p class="ql-align-center">(1)</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/yjjdhd1.jpg"></p><p class="ql-align-center">(2)</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/yjjdhd2.jpg"></p><p class="ql-align-center">(3)</p>'
   }, {
     id: 2,
-    content: '<blockquote>2016年6月，怡康蚌埠怡嘉集团一如既往地向贫困儿童、贫困家庭慈善捐款，希望通过公司一点绵薄之力能帮助需要帮助的人，希望得到帮助的人生活、学习会更加美好。</blockquote><p><br></p><p>募捐合照留念：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/yjcs2016jk.jpg"></p><p class="ql-align-center">(1)</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/yjcs2016jk1.jpg"></p><p class="ql-align-center">(2)</p>'
+    content: '<blockquote>2016年6月，怡康蚌埠怡嘉集团一如既往地向贫困儿童、贫困家庭慈善捐款，希望通过公司一点绵薄之力能帮助需要帮助的人，希望得到帮助的人生活、学习会更加美好。</blockquote><p><br></p><p>募捐合照留念：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/yjcs2016jk.jpg"></p><p class="ql-align-center">(1)</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/yjcs2016jk1.jpg"></p><p class="ql-align-center">(2)</p>'
   }, {
     id: 3,
-    content: '<blockquote>2015年1月14日，怡康控股蚌埠公司举行了以”情系春蕾、与爱同行“为主题的捐赠助学仪式，对淮上区后场小学--春蕾班进行慈善募捐，希望春蕾班的小朋友们日后能像春天的花蕾一样越来越美丽，人生越来越精彩。</blockquote><p><br></p><p>仪式合影留恋：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/bbyjcs2015jk.jpg"></p>'
+    content: '<blockquote>2015年1月14日，怡康控股蚌埠公司举行了以”情系春蕾、与爱同行“为主题的捐赠助学仪式，对淮上区后场小学--春蕾班进行慈善募捐，希望春蕾班的小朋友们日后能像春天的花蕾一样越来越美丽，人生越来越精彩。</blockquote><p><br></p><p>仪式合影留恋：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/bbyjcs2015jk.jpg"></p>'
   }, {
     id: 4,
-    content: '<blockquote>2013年6月，怡康地产举行了”感恩、答谢“慈善募捐公益活动，向蚌埠市淮上区多名品学兼优的学生进行了善款募捐，希望这些优秀学生能再接再厉，并且能将奉献爱心这一美德很好的传承下去，更希望优秀学子能通过自己的不懈努力绽放出人生光彩。</blockquote><p><br></p><p>活动合影留念：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/ykbbcs2013jk.jpg"></p>'
+    content: '<blockquote>2013年6月，怡康地产举行了”感恩、答谢“慈善募捐公益活动，向蚌埠市淮上区多名品学兼优的学生进行了善款募捐，希望这些优秀学生能再接再厉，并且能将奉献爱心这一美德很好的传承下去，更希望优秀学子能通过自己的不懈努力绽放出人生光彩。</blockquote><p><br></p><p>活动合影留念：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/ykbbcs2013jk.jpg"></p>'
   }, {
     id: 5,
-    content: '<blockquote>2012年6月，蚌埠怡嘉置业发展有限公司在”凝聚慈善的力量“的公益活动中，向安徽美佛儿国际学校募捐善款3000元整，希望尽一点绵薄之力帮助需要帮助的人，让世界更美好。</blockquote><p><br></p><p>活动截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/ykyjcs2012jd.jpg"></p>'
+    content: '<blockquote>2012年6月，蚌埠怡嘉置业发展有限公司在”凝聚慈善的力量“的公益活动中，向安徽美佛儿国际学校募捐善款3000元整，希望尽一点绵薄之力帮助需要帮助的人，让世界更美好。</blockquote><p><br></p><p>活动截图：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/ykyjcs2012jd.jpg"></p>'
   }, {
     id: 6,
-    content: '<blockquote>2017年4月，安徽省蚌埠市淮上区上河时代为了更好的迎合政府政策，为了更好的造福当地居民，特地将上河时代营销中心拆迁。</blockquote><p><br></p><p>合影留念：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/new2.jpg"></p>'
+    content: '<blockquote>2017年4月，安徽省蚌埠市淮上区上河时代为了更好的迎合政府政策，为了更好的造福当地居民，特地将上河时代营销中心拆迁。</blockquote><p><br></p><p>合影留念：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/new2.jpg"></p>'
   }, {
     id: 7,
-    content: '<blockquote>2013年12月，怡康房产举行金砖商务酒店试营业庆典，集团总裁俞渊琼先生剪彩祝贺。</blockquote><p><br></p><p>活动截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/new3.jpg"></p>'
+    content: '<blockquote>2013年12月，怡康房产举行金砖商务酒店试营业庆典，集团总裁俞渊琼先生剪彩祝贺。</blockquote><p><br></p><p>活动截图：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/new3.jpg"></p>'
   }, {
     id: 8,
-    content: '<blockquote>2011年12月，怡康机电五年庆，由怡俞渊琼先生、邓美贤女士和机电负责人一起进行庆典启动仪式。</blockquote><p><br></p><p>庆典截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/news4.jpg"></p>'
+    content: '<blockquote>2011年12月，怡康机电五年庆，由怡俞渊琼先生、邓美贤女士和机电负责人一起进行庆典启动仪式。</blockquote><p><br></p><p>庆典截图：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/news4.jpg"></p>'
   }, {
     id: 9,
-    content: '<blockquote>2006年5月，怡康机电市场盛大开业，人山人海，万人庆祝。</blockquote><p><br></p><p>开业截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/news5.jpg"></p>'
+    content: '<blockquote>2006年5月，怡康机电市场盛大开业，人山人海，万人庆祝。</blockquote><p><br></p><p>开业截图：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/news5.jpg"></p>'
   }, {
     id: 10,
-    content: '<blockquote>2002年8月，怡康集团创始人俞国刚先生具有远瞻的目光，率先与加拿大一起开展建筑节能项目，成为常州示范工程，开工庆典。</blockquote><p><br></p><p>总裁与加拿大留念：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/news6.jpg"></p>'
+    content: '<blockquote>2002年8月，怡康集团创始人俞国刚先生具有远瞻的目光，率先与加拿大一起开展建筑节能项目，成为常州示范工程，开工庆典。</blockquote><p><br></p><p>总裁与加拿大留念：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/news6.jpg"></p>'
   }, {
     id: 11,
-    content: '<blockquote>2002年2月，怡康花园二期顺利交付，居民自发的舞龙庆祝。</blockquote><p><br></p><p>庆祝留念：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/news7.jpg"></p>'
+    content: '<blockquote>2002年2月，怡康花园二期顺利交付，居民自发的舞龙庆祝。</blockquote><p><br></p><p>庆祝留念：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/news7.jpg"></p>'
   }, {
     id: 12,
-    content: '<blockquote>2001年5月，怡康花园获”2000年小康示范小区“。</blockquote><p><br></p><p>俞国钢显示捧着荣誉证书合影</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/news8.jpg"></p>'
+    content: '<blockquote>2001年5月，怡康花园获”2000年小康示范小区“。</blockquote><p><br></p><p>俞国钢显示捧着荣誉证书合影</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/news8.jpg"></p>'
   }, {
     id: 13,
-    content: '<blockquote>2001年3月，怡康花园智能化项目鉴定大会。</blockquote><p><br></p><p>会议截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/news9.jpg"></p>'
+    content: '<blockquote>2001年3月，怡康花园智能化项目鉴定大会。</blockquote><p><br></p><p>会议截图：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/news9.jpg"></p>'
   }, {
     id: 14,
-    content: '<blockquote>2001年1月，怡康花园一期主体竣工。</blockquote><p><br></p><p>截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/news10.jpg"></p>'
+    content: '<blockquote>2001年1月，怡康花园一期主体竣工。</blockquote><p><br></p><p>截图：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/news10.jpg"></p>'
   }, {
     id: 15,
-    content: '<blockquote>1999年5月，怡康花园盛大开盘。</blockquote><p><br></p><p>开盘截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/new1.jpg"></p>'
+    content: '<blockquote>1999年5月，怡康花园盛大开盘。</blockquote><p><br></p><p>开盘截图：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/new1.jpg"></p>'
   }, {
     id: 16,
-    content: '<blockquote>2014年1月18日，蚌埠幼教集团机关二幼正式签约入驻上河时代花园。</blockquote><p><br></p><p>大会截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/news11.jpg"></p><p class="ql-align-center">(1)</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/new11_1.jpg"></p><p class="ql-align-center">(2)</p>'
+    content: '<blockquote>2014年1月18日，蚌埠幼教集团机关二幼正式签约入驻上河时代花园。</blockquote><p><br></p><p>大会截图：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/news11.jpg"></p><p class="ql-align-center">(1)</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/new11_1.jpg"></p><p class="ql-align-center">(2)</p>'
   }, {
     id: 17,
-    content: '<blockquote>2014年1月11号，热烈欢迎蚌埠江苏商会领导莅临参观指导。</blockquote><p><br></p><p>活动合影留念：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/news12.jpg"></p>'
+    content: '<blockquote>2014年1月11号，热烈欢迎蚌埠江苏商会领导莅临参观指导。</blockquote><p><br></p><p>活动合影留念：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/news12.jpg"></p>'
   }, {
     id: 18,
-    content: '<blockquote>2013年12月29日，“上河时代”为了回馈业主，特地举行了年终新品发布会。</blockquote><p><br></p><p>活动截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/news13.jpg"></p>'
+    content: '<blockquote>2013年12月29日，“上河时代”为了回馈业主，特地举行了年终新品发布会。</blockquote><p><br></p><p>活动截图：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/news13.jpg"></p>'
   }, {
     id: 19,
-    content: '<blockquote>2017年8月10日，怡康置业党支部组织了韶山党建活动，认真学习党的指导方针，并毛主席铜像献上花篮以表敬意，合影留念。</blockquote><p><br></p><p>活动截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/dj20170810_2.jpg"></p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/dj20170810_3.jpg"/></p>'
+    content: '<blockquote>2017年8月10日，怡康置业党支部组织了韶山党建活动，认真学习党的指导方针，并毛主席铜像献上花篮以表敬意，合影留念。</blockquote><p><br></p><p>活动截图：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/dj20170810_2.jpg"></p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/dj20170810_3.jpg"/></p>'
   }, {
     id: 20,
-    content: '<blockquote>2017年7月26日，怡康置业党支部到固镇消防大队廉政教育基地参观学习。</blockquote><p><br></p><p>活动截图：</p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/dj20170726_2.jpg "></p><p class="ql-align-center"><img src="http://osecpxcsy.bkt.clouddn.com/dj20170726_1.jpg"/></p>'
+    content: '<blockquote>2017年7月26日，怡康置业党支部到固镇消防大队廉政教育基地参观学习。</blockquote><p><br></p><p>活动截图：</p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/dj20170726_2.jpg "></p><p class="ql-align-center"><img src="http://yeacom.thinkingsam.cn/dj20170726_1.jpg"/></p>'
   }],
   // 招聘职位
   zpzwList: [{

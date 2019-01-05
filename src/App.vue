@@ -1,7 +1,7 @@
 <template lang="pug">
   #app(:class="{'pb-80': fixBottom}")
     navbar(placement="top",style="background:#fff;")
-      img.img-responsive(v-lazy="'http://osecpxcsy.bkt.clouddn.com/yklogo.png'",style="width:120px;height:46px;margin-top:2px;",slot="brand")
+      img.img-responsive(v-lazy="'http://yeacom.thinkingsam.cn/yklogo.png'",style="width:120px;height:46px;margin-top:2px;",slot="brand")
       li.right-txt(slot="right",v-for="(rt,i) in rightTitles", :class="{'dp': rt.type == 'dropdown'}")
         a(:class="{'active': i == topTabIndex}", v-if="rt.type== 'text'",@click="jump(rt.url)") {{rt.name}}
         dropdown(:text="rt.name",:class="{'active': i == topTabIndex}",v-else)
@@ -11,7 +11,7 @@
     .footer(:class="{'fix-bottom': fixBottom}")
       .row.text-center.ft-white
         i.fa.fa-copyright
-        | 2017&nbsp;&nbsp;怡康地产&版权所有[
+        | 2019&nbsp;&nbsp;怡康地产&版权所有[
         a(href="http://www.miitbeian.gov.cn/", target="_blank") 皖ICP备16014253号
         | ]&nbsp;&nbsp;|&nbsp;&nbsp;技术支持&nbsp;&nbsp;
         a(href="http://www.thinkingsam.cn") 山姆极客

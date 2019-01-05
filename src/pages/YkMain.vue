@@ -26,19 +26,19 @@
       .part
         .row
           .col-sm-4
-            img.img-responsive.intro-img(v-lazy="'http://osecpxcsy.bkt.clouddn.com/teammodel.jpg'",style="width:100%;")
+            img.img-responsive.intro-img(v-lazy="'http://yeacom.thinkingsam.cn/teammodel.jpg'",style="width:100%;")
             .grid-content(style="margin-bottom: 20px;")
               h4 人才理念及培训项目
               div.text-right
                 span.label.label-warning.comp-intor-more-label(@click="jump({path: '/slide3dList', query: {currentTopIdx: 4,topPart: '人才理念及培训项目', contentKey: 'rcList'}})") 详情
           .col-sm-4
-            img.intro-img(v-lazy="'http://osecpxcsy.bkt.clouddn.com/pxmain.jpg'",style="width:100%;")
+            img.intro-img(v-lazy="'http://yeacom.thinkingsam.cn/pxmain.jpg'",style="width:100%;")
             .grid-content(style="margin-bottom: 20px;")
               h4 培训与成长
               div.text-right
                 span.label.label-warning.comp-intor-more-label(@click="jump({path: '/slide3dList', query: {currentTopIdx: 4, topTitle: '培训与成长', contentKey: 'pxList'}})") 详情
           .col-sm-4
-            img.img-responsive.intro-img(v-lazy="'http://osecpxcsy.bkt.clouddn.com/zpmain.jpg'",style="width:100%;")
+            img.img-responsive.intro-img(v-lazy="'http://yeacom.thinkingsam.cn/zpmain.jpg'",style="width:100%;")
             .grid-content(style="margin-bottom: 20px;")
               h4 人才招聘
               div.text-right
@@ -108,16 +108,16 @@
   }
   .comp-intro {
     /*background: url(../assets/bg1.jpg);*/
-    background: url('http://osecpxcsy.bkt.clouddn.com/ykhp3.jpg')  center center no-repeat;
+    background: url('http://yeacom.thinkingsam.cn/ykhp3.jpg')  center center no-repeat;
   }
   .industry-intro {
-    background: url('http://osecpxcsy.bkt.clouddn.com/bg2.jpg') center center;
+    background: url('http://yeacom.thinkingsam.cn/bg2.jpg') center center;
   }
   .team-intro {
-    background: url('http://osecpxcsy.bkt.clouddn.com/bg3.jpg') center center;
+    background: url('http://yeacom.thinkingsam.cn/bg3.jpg') center center;
   }
   .culture-intro {
-    background: url('http://osecpxcsy.bkt.clouddn.com/bg4.jpg') center center;
+    background: url('http://yeacom.thinkingsam.cn/bg4.jpg') center center;
   }
   .section strong {
     position: absolute;

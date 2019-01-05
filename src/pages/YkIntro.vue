@@ -5,7 +5,7 @@
         h2.text-center 企业介绍
         .row(style="margin-top:3%;")
           .col-sm-4.mb-20
-            img.img-responsive.img-rounded(v-lazy="'http://osecpxcsy.bkt.clouddn.com/ykhyndmlogo.jpg'",style="max-height:300px")
+            img.img-responsive.img-rounded(v-lazy="'http://yeacom.thinkingsam.cn/ykhyndmlogo.jpg'",style="max-height:300px")
           .col-sm-8.mb-20.section-scroll-wrapper.intro-font(style="height:330px;")
             .section-scroll(style="overflow-y: auto")
               div(v-html="aboutYk.compIntro")
@@ -17,12 +17,12 @@
         .title-bottom-line
       .row
         .col-sm-4.mb-20
-          img.img-responsive.img-rounded(v-lazy="'http://osecpxcsy.bkt.clouddn.com/ykygg.jpg'")
+          img.img-responsive.img-rounded(v-lazy="'http://yeacom.thinkingsam.cn/ykygg.jpg'")
         .col-sm-8.mb-20.intro-font(v-html="aboutYk.yggIntro")
       hr
       .row
         .col-sm-4.mb-20
-          img.img-responsive.img-rounded(v-lazy="'http://osecpxcsy.bkt.clouddn.com/nmxnew.jpg'")
+          img.img-responsive.img-rounded(v-lazy="'http://yeacom.thinkingsam.cn/nmxnew.jpg'")
         .col-sm-8.mb-20.intro-font(v-html="aboutYk.dmxIntro")
     .container
       h3.text-center.ft-primary
@@ -31,8 +31,8 @@
         .title-bottom-line
       .row
         .col-sm-4.mb-20
-          //- img.img-responsive.img-rounded(v-lazy="'http://osecpxcsy.bkt.clouddn.com/ykyyq.jpg'")
-          img.img-responsive.img-rounded(v-lazy="'http://osecpxcsy.bkt.clouddn.com/yyqnew.jpg'")
+          //- img.img-responsive.img-rounded(v-lazy="'http://yeacom.thinkingsam.cn/ykyyq.jpg'")
+          img.img-responsive.img-rounded(v-lazy="'http://yeacom.thinkingsam.cn/yyqnew.jpg'")
         .col-sm-8.intro-font(v-html="aboutYk.yyqIntro")
     .container.comp-process
       h3.text-center.ft-primary
