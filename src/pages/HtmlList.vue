@@ -71,7 +71,8 @@
       const me = this
       PaginationEvent.$on('vue-pagination::htmlListPg', page => {
         me.currentPage = page - 1
-        me.pages = me.currentArray(me.currentPage * me.pageSize, me.pageSize, me.listArray)
+        // me.pages = me.currentArray(me.currentPage * me.pageSize, me.pageSize, me.listArray)
+        me.loadData()
       })
     },
     computed: {
@@ -111,11 +112,9 @@
           console.log('data', data)
           if (data.return_code === 0) {
             me.totalCount = data.total
-            if (me.currentPage === 0 && data.list.length > 0) {
+            if (data.list.length > 0) {
               me.formatData(data.list, false)
-            } else if (me.currentPage > 0 && data.list.length > 0) {
-              me.formatData(data.list)
-            } else if (me.currentPage === 0 && data.list.length === 0) {
+            } else {
               me.pages = []
             }
           } else {
