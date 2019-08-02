@@ -12,7 +12,7 @@
             .detail
               a 详细阅读
           .news-content
-            h3 {{p.title}}
+            h3.text-ellipsis {{p.title}}
             p
               | 发布者：{{p.author}}
               span.ml-10 |
@@ -108,7 +108,7 @@
       },
       loadData () {
         const me = this
-        this.request(this.transformUrl + 'api/yeacom/news?pageSize=' + this.pageSize + '&currentPage=' + this.currentPage).then(data => {
+        this.request('/yeacom/news?pageSize=' + this.pageSize + '&currentPage=' + this.currentPage).then(data => {
           console.log('data', data)
           if (data.return_code === 0) {
             me.totalCount = data.total

@@ -32,7 +32,7 @@
       .row
         .col-sm-4.mb-20
           //- img.img-responsive.img-rounded(v-lazy="'http://yeacom.thinkingsam.cn/ykyyq.jpg'")
-          img.img-responsive.img-rounded(v-lazy="'http://yeacom.thinkingsam.cn/yyqnew.jpg'")
+          img.img-responsive.img-rounded(v-lazy="'http://yeacom.thinkingsam.cn/ykyyqnew.jpg'")
         .col-sm-8.intro-font(v-html="aboutYk.yyqIntro")
     .container.comp-process
       h3.text-center.ft-primary
