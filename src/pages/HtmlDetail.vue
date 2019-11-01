@@ -5,7 +5,7 @@
       li.active {{detailObj.topPart}}
     .container
       .row
-        h1.text-center {{detailObj.title}}
+        h2.text-center {{detailObj.title}}
         br
         p(style="color:#666")
           span 发布时间: {{detailObj.time}}

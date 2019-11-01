@@ -12,7 +12,7 @@
             .detail
               a 详细阅读
           .news-content
-            h3.text-ellipsis {{p.title}}
+            h4.text-ellipsis {{p.title}}
             p
               | 发布者：{{p.author}}
               span.ml-10 |
