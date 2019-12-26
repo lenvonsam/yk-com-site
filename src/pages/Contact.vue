@@ -13,7 +13,7 @@
       h3.ft-primary 江苏怡康控股集团有限公司
       p 地址：常州市关河中路68号怡康机电广场1号楼21F
       p 邮编：213004
-      p 电话: 0519-88881108
+      p 电话: 0519-86294358
       //- p 邮箱: xx@yikang.com
 </template>
 
@@ -31,8 +31,7 @@
         },
         events: {
           init (o) {
-            console.log('init')
-            console.log(o)
+            console.log('init', o)
           }
         },
         mapEvents: {
