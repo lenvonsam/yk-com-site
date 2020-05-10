@@ -13,38 +13,37 @@
             h3
               | {{item.name}}
           .col-sm-6
-            img.responsive.img-rounded(v-lazy="item.logourl", style="height:80px;width:80px;",v-if="item.logourl != ''")
+            img.responsive.img-rounded.mt-10(v-lazy="item.logourl", style="height:80px;width:80px;",v-if="item.logourl != ''")
         hr
         p 公司地址: {{item.addr}}
         p 联系电话: {{item.contact}}
 </template>
 
 <script>
-  import { mapState, mapActions } from 'vuex'
-  export default {
-    data () {
-      return {
-        pageTitle: ''
-      }
-    },
-    beforeMount () {
-      var query = this.$route.query
-      this.pageTitle = query.topPart
-      this.configKeyVal({key: 'topTabIndex', val: query.currentTopIdx})
-    },
-    computed: {
-      ...mapState({
-        kfjyList: state => state.kfjyList
-      })
-    },
-    methods: {
-      ...mapActions([
-        'configKeyVal'
-      ])
+import { mapState, mapActions } from 'vuex'
+export default {
+  data () {
+    return {
+      pageTitle: ''
     }
+  },
+  beforeMount () {
+    var query = this.$route.query
+    this.pageTitle = query.topPart
+    this.configKeyVal({ key: 'topTabIndex', val: query.currentTopIdx })
+  },
+  computed: {
+    ...mapState({
+      kfjyList: state => state.kfjyList
+    })
+  },
+  methods: {
+    ...mapActions([
+      'configKeyVal'
+    ])
   }
+}
 </script>
 
 <style scoped>
-
 </style>
